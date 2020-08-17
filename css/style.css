@@ -48,7 +48,7 @@ label{
     animation-duration: 1.3s;
     animation-fill-mode: forwards;
     transition: .3s ease;
-    transform: scale(.9);
+    transform: scale(1);
 }
 
 @keyframes pop-up{
@@ -74,7 +74,7 @@ label{
 }
 
 .botao-whatsapp:hover{   
-    transform: scale(1);
+    transform: scale(1.1);
 }
 
 /* Fim Botao Whatsapp */
