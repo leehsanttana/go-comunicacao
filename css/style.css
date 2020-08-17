@@ -2,10 +2,7 @@ colors{
     color: #ffffff;
     color: #000000;
     color: #12a89c;
-    color: #0b8c66;
-    color: #0ebd74;
-    color: #097253;
-    color: #075839;
+    color: #006d77;
 }
 
 p, a, li, label, .description{
@@ -17,19 +14,16 @@ label{
 }
 
 .text-green{
-    color: #0b8c66;
-}
-
-.bg-green{
-    background: #0b8c66;
+    color: #12a89c;
 }
 
 .bg-footer{
-    background: #097253;
+    background: #12a89c;
+    background-attachment: fixed;
 }
 
 .bg-footer2{
-    background: #075839;
+    background: #128f89;
 }
 
 /* Botao Whatsapp */
@@ -102,26 +96,26 @@ label{
 }
 
 .botao-info {
-    background: #0ebd74;
+    background: #12a89c;
     color: #fff;
-    border-color: #0ebd74;
+    border-color: #12a89c;
 }
   
 .botao-info:hover {
     color: #fff;
-    background-color: #0ebd88;
-    border-color: #0ebd88;
+    background-color: #006d77;
+    border-color: #006d77;
 }
 
 .botao-outline-info {
-    color: #0ebd88;
-    border-color: #0ebd88;
+    color: #12a89c;
+    border-color: #12a89c;
 }
   
 .botao-outline-info:hover {
     color: #fff;
-    background-color: #0ebd74;
-    border-color: #0ebd74;
+    background-color: #12a89c;
+    border-color: #12a89c;
 }
 
 .botao-outline-info2 {
@@ -131,8 +125,8 @@ label{
   
 .botao-outline-info2:hover {
     color: #fff;
-    background-color: #0ebd74;
-    border-color: #0ebd74;
+    background-color: #006d77;
+    border-color: #006d77;
 }
 
 /* Fim Botoes */
@@ -140,7 +134,7 @@ label{
 /* Sessão Header */
 
 .navbar-brand, .nav-main{
-    color: #0b8c66;
+    color: #12a89c;
 }
 
 .navbar-brand:hover{
@@ -190,7 +184,7 @@ header{
 }
 
 .link-seta:hover{
-    color: #075839;
+    color: #006d77;
 }
 
 @keyframes flutuacao{
@@ -214,7 +208,7 @@ header{
 }
 
 .box-text{
-    background: #0b8c66;
+    background: #12a89c;
     padding: 1em;
     position: relative;
     color: #ffffff;
@@ -231,7 +225,7 @@ header{
     display: block;
     padding: 0.75rem 1.25rem;
     font-size: 1.3em;
-    background-color: #0b8c66;
+    background-color: #12a89c;
     border: 2px solid #fff;
     color:#ffffff;
     border-radius: .25em;
@@ -254,7 +248,7 @@ header{
 }
 
 .trabalhos{
-    color: #0b8c66;
+    color: #12a89c;
     padding: 1.5em;
     background: #ffffff;
     border-radius: 2em;
@@ -272,10 +266,10 @@ header{
     height: 150px;
     padding: 20px;
     border-radius: 50%;
-    border: solid 3px #0ebd88;
+    border: solid 3px #12a89c;
     background: #fff;
     font-size: 4em;
-    color: #0ebd88;
+    color: #12a89c;
 }
 
 /* fim sessao trabalhos */
@@ -289,13 +283,13 @@ header{
 }
 
 .modal-body{
-    background: #0ebd88;
+    background: #12a89c;
 }
 
 .planos{
-    color: #0b8c66;
+    color: #12a89c;
     padding: 1.5em;
-    background: #0ebd88;
+    background: #12a89c;
     border-radius: 2em;
     border: 2px solid #fff;
 }
@@ -317,15 +311,15 @@ header{
     padding: 0.75rem 1.2rem;
     margin-bottom: .25rem;
     background-color: #ffffff;
-    color:#0b8c66;
+    color:#12a89c;
     border-radius: .25em;
     font-size: .950rem;
     transition: .3s ease;
+    opacity: 1;
 }
 
 .group-item-plans:hover{
-    background-color: #e9fff8;
-    color: rgba(14, 189, 136, 0.8);   
+    opacity: .9;   
 }
 
 .section-5 img{
@@ -335,6 +329,12 @@ header{
 /* fim sessao planos */
 
 /* Sessão contatos */
+
+.section-7{
+    background-image: linear-gradient( rgba(11, 140, 102, 0.8), rgba(18, 168, 156, 0.8));
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .form-group .form-control{
 
