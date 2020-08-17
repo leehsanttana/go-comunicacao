@@ -41,13 +41,14 @@ label{
     padding: .5rem;
     border-radius: 1rem;
     background-color: #00bc5d;
-    left: 40%;
+    left: 30%;
     z-index: 10;
     animation-name: pop-up;
     animation-delay: 1s;
     animation-duration: 1.3s;
     animation-fill-mode: forwards;
     transition: .3s ease;
+    transform: scale(.8);
 }
 
 @keyframes pop-up{
