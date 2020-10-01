@@ -28,7 +28,7 @@ label{
     padding: .5rem;
     border-radius: 1rem;
     background-color: #00bc5d;
-    left: 25%;
+    left: 20%;
     z-index: 10;
     animation-name: pop-up;
     animation-delay: 1s;
@@ -252,7 +252,7 @@ header{
 
 .content-video{
     position: relative;
-    height: auto;
+    height: 300px;
 }
 
 #myVideo{
@@ -266,7 +266,7 @@ header{
     top: 0%;
     left: 0;
     background: rgba(0, 80, 104, .7);
-    height: 98%;
+    height: 300px;
     font-size: 1rem;
     color: #fff;
 }
@@ -288,6 +288,7 @@ header{
 @media only screen and (min-width: 768px) {
     .content-video{
         position: relative;
+        height: auto;
     }
     
     #myVideo{
