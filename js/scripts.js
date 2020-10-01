@@ -1,34 +1,63 @@
-
-$(function(){
-
-  function atualizar_informacoes() {
-    $("#nomes-parceiros").text( $(".slick-center").data("name") );
-  }
-
-  $(".parceiros-slider").on('init', function(){
-    atualizar_informacoes();
+function scrollNav() {
+  $('.navbar-nav a').click(function(){
+    $(".active").removeClass("active");     
+    $(this).addClass("active");
+    
+    $('html, body').stop().delay(200).animate({
+      scrollTop: $($(this).attr('href')).offset().top 
+    }, 600);
+    return false;
   });
+}
 
-  $(".parceiros-slider").slick({
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    centerMode: true,
-    prevArrow: $("#arrow-prev"),
-    nextArrow: $("#arrow-next"),
-    responsive: [
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1
+function scrollButtom() {
+  $('.rounded-circle a').click(function(){
+    $(".active").removeClass("active");     
+    $(this).addClass("active");
+    
+    $('html, body').stop().delay(200).animate({
+      scrollTop: $($(this).attr('href')).offset().top 
+    }, 600);
+    return false;
+  });
+}
+
+function scrollOrcamento() {
+  $('.btn-orcamento').click(function(){
+    $(".active").removeClass("active");     
+    $(this).addClass("active");
+    
+    $('html, body').stop().delay(200).animate({
+      scrollTop: $($(this).attr('href')).offset().top 
+    }, 600);
+    return false;
+  });
+}
+
+function rotate(){
+  document.getElementById("girar").classList.toggle('toggler');
+}
+
+scrollNav();
+scrollButtom();
+scrollOrcamento();
+
+
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
         }
-      }
-    ]
-  });
-
-  $(".parceiros-slider").on('afterChange', function(){
-    atualizar_informacoes();
-  });
-
-})
-
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
