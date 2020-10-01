@@ -28,7 +28,7 @@ label{
     padding: .5rem;
     border-radius: 1rem;
     background-color: #00bc5d;
-    left: 30%;
+    left: 25%;
     z-index: 10;
     animation-name: pop-up;
     animation-delay: 1s;
@@ -252,6 +252,7 @@ header{
 
 .content-video{
     position: relative;
+    height: auto;
 }
 
 #myVideo{
