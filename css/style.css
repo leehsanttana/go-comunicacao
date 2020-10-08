@@ -229,7 +229,7 @@ header{
     padding: 1.5em;
     background: #ffffff;
     border-radius: 2em;
-    height: 750px;
+    height: auto;
 }
 
 .servicos{
@@ -252,74 +252,37 @@ header{
 
 .content-video{
     position: relative;
-    height: 300px;
+    height: auto;
 }
-
+    
 #myVideo{
     position: relative;
     width: 100%;
     height: auto;
+    background-size: cover;
 }
-
+    
 .content-inner-video{
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
-    background: rgba(0, 80, 104, .7);
-    height: 300px;
-    font-size: 1rem;
-    color: #fff;
+    background: rgb(18, 168, 156, .5);
+    height: 99.1%;
+    text-align: left;
 }
-
+    
 .content-inner-video h4{
-    padding-top: .75rem;
+    padding-top: 5rem;
 }
 
 .content-inner-video p{
-    padding-top: .5rem;
-    font-size: .85rem;
+    padding-top: 5rem;
+    font-size: 1.5rem;
 }
 
 .btn-video{
-    padding: .10rem !important;
-    font-size: .75rem !important;
-}
-
-@media only screen and (min-width: 768px) {
-    .content-video{
-        position: relative;
-        height: auto;
-    }
-    
-    #myVideo{
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-size: cover;
-    }
-    
-    .content-inner-video{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: rgba(0, 80, 104, .5);
-        height: 99.3%;
-        text-align: left;
-    }
-    
-    .content-inner-video h4{
-        padding-top: 5rem;
-    }
-
-    .content-inner-video p{
-        padding-top: 5rem;
-        font-size: 1.5rem;
-    }
-
-    .btn-video{
-        padding: .20rem !important;
-        font-size: 1rem !important;
-    }
+    padding: .20rem !important;
+    font-size: 1rem !important;
 }
 
 /* fim sessao trabalhos */
