@@ -229,7 +229,11 @@ header{
     padding: 1.5em;
     background: #ffffff;
     border-radius: 2em;
-    height: auto;
+    height: 750px;
+}
+
+.trabalhos-video{
+    height: 850px;
 }
 
 .servicos{
@@ -382,24 +386,6 @@ header{
     transform: scale(1.1);
     filter: none;
 
-}
-
-.map{
-    width: 100% !important;
-    height: 400px !important;
-    position: relative;
-    top: 0;
-    right: 0;
-}
-
-@media only screen and (min-width: 768px) {
-    .map{
-        width: 100% !important;
-        height: 100% !important;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
 }
 
 /*Fim Sessão contatos */
